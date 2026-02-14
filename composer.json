@@ -1,21 +1,29 @@
 {
-    "name": "divineomega/php-password-cracker",
-    "description": "PHP package to crack passwords",
-    "type": "library",
-    "license": "LGPL-3.0-only",
-    "authors": [
-        {
-            "name": "Jordan Hall",
-            "email": "jordan@hall05.co.uk"
-        }
-    ],
-    "require": {
-        "php": ">=7.1",
-        "spatie/async": "^1.2"
-    },
-    "autoload": {
-        "psr-4": {
-            "DivineOmega\\PasswordCracker\\": "src/"
-        }
+  "name": "jord-jd/php-password-cracker",
+  "description": "PHP package to crack passwords",
+  "type": "library",
+  "license": "LGPL-3.0-only",
+  "authors": [
+    {
+      "name": "Jordan Hall",
+      "email": "jordan@hall05.co.uk"
     }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "spatie/async": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "DivineOmega\\PasswordCracker\\": "src/"
+    }
+  },
+  "replace": {
+    "divineomega/php-password-cracker": "self.version"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0-dev"
+    }
+  }
 }

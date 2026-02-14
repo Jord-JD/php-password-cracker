@@ -4,7 +4,7 @@ PHP package to crack passwords
 ## Installation
 
 ```bash
-composer require divineomega/php-password-cracker
+composer require jord-jd/php-password-cracker
 ```
 
 ## Usage
