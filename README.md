@@ -10,7 +10,7 @@ composer require jord-jd/php-password-cracker
 ## Usage
 
 ```php
-use DivineOmega\PasswordCracker\Crackers\DictionaryCracker;
+use JordJD\PasswordCracker\Crackers\DictionaryCracker;
 
 $hash = password_hash('secret', PASSWORD_BCRYPT);
 

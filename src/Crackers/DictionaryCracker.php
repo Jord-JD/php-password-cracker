@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\PasswordCracker\Crackers;
+namespace JordJD\PasswordCracker\Crackers;
 
 use Spatie\Async\Pool;
 
