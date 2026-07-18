@@ -13,17 +13,34 @@
     "php": ">=7.1",
     "spatie/async": "^1.2"
   },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5||^9.6||^10.5||^11.5||^12.5"
+  },
   "autoload": {
     "psr-4": {
       "JordJD\\PasswordCracker\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "JordJD\\PasswordCracker\\Tests\\": "tests/"
+    }
+  },
   "replace": {
     "divineomega/php-password-cracker": "self.version"
   },
+  "suggest": {
+    "ext-pcntl": "Enables parallel password checks instead of the synchronous fallback.",
+    "ext-posix": "Enables parallel password checks instead of the synchronous fallback."
+  },
+  "config": {
+    "allow-plugins": {
+      "kylekatarnls/update-helper": false
+    }
+  },
   "extra": {
     "branch-alias": {
-      "dev-master": "3.0-dev"
+      "dev-master": "3.1-dev"
     }
   }
 }
